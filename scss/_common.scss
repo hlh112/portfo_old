@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* Style commonly used */
+
+// Basic Setup
+body,
+body * {
+    max-height: 1000000px; //font boosting fix
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+html,
+body {
+    @include bodyFontSize();
+    font-family: $fontTxt;
+    color:$colorTxt;
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    position: relative;
+    background: $bkgrdWhite;
+    transition: 1s ease all;
+    &.about_active{
+        background: $themeYellow;
+    }
+    &.proj_active{
+        overflow: auto;
+    }
+}
+
+a {
+    text-decoration: none;
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+img {
+    //image-rendering: -webkit-optimize-contrast;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: $cmSpacing;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: $cmSpacing;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+main {
+    position: relative;
+    width: $gridPercent;
+    height: 100%;
+    margin: 0 auto;
+}
+
+// Common Layout
+.inner_wrapper{
+    max-width: $gridMaxWidth;
+    width: $gridPercent;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title-lv1 {
+    font-weight: 500;
+    font-family: $fontTitle;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    @include fontSize(40);
+    @media screen and (max-width: $xl-width) {
+        @include fontSize(36);
+    }
+    @media screen and (max-width: $tb-width) {
+        @include fontSize(32);
+        letter-spacing: 10px;
+    }
+    @media screen and (max-width: $mb-width) {
+        @include fontSize(20);
+        letter-spacing: 7px;
+    }
+    @media screen and (max-width: $min-width) {
+        letter-spacing: 5px;
+    }
+}
+
+.title-lv2 {
+    font-weight: 400;
+    font-family: $fontItalic;
+    @include fontSize(18);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    @media screen and (max-width: $xl-width) {
+        @include fontSize(18);
+    }
+    @media screen and (max-width: $tb-width) {
+        @include fontSize(16);
+        letter-spacing: 2px;
+    }
+    @media screen and (max-width: $mb-width) {
+        @include fontSize(14);
+    }
+    @media screen and (max-width: $min-width) {
+        @include fontSize(12);
+    }
+}
+
+.title-lv3 {
+    font-weight: 300;
+    font-family: $fontTxt;
+    @include fontSize(16);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.title-lv4 { //content
+    font-weight: 300;
+    font-family: $fontTxt;
+    @include fontSize(22);
+    @media screen and (max-width: $tb-width) {
+        @include fontSize(18);
+        letter-spacing: 1px;
+    }
+    @media screen and (max-width: $mb-width) {
+        @include fontSize(16);
+    }
+    @media screen and (max-width: $min-width) {
+        @include fontSize(14);
+        letter-spacing: 0px;
+        line-height: 1.3;
+    }
+}
+
+.title-lv5 { //content
+    font-weight: 400;
+    font-family: $fontTxt;
+    @include fontSize(28);
+    line-height: 1.5;
+    @media screen and (max-width: $tb-width) {
+        @include fontSize(22);
+        letter-spacing: 1px;
+    }
+    @media screen and (max-width: $mb-width) {
+        @include fontSize(18);
+    }
+}
+
+.align {
+    &-hc {
+        text-align: center;
+    }
+    &-hl {
+        text-align: left;
+    }
+    &-hr {
+        text-align: right;
+    }
+    &-vt {
+        vertical-align: top;
+    }
+    &-vb {
+        vertical-align: bottom;
+    }
+    &-vm {
+        vertical-align: middle;
+    }
+    &-hvc {
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+.clearfix {
+    @include clearfix();
+}
+
+.js-animated{
+    opacity: 0;
+}
+/* END Style commonly used  */

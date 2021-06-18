@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* mixins to be included */
+
+//Simplifiers
+@mixin fontSize($size) {
+    font-size: $size * 1px; 
+}
+
+@mixin clearfix() {
+    clear:both;
+}
+
+@mixin clearAfter() {
+    &:after{
+        @include clearfix();
+    }
+}
+
+@mixin clearBefore() {
+    &:before{
+        @include clearfix();
+    }
+}
+
+@mixin getFullPageHeaderOffset($property_name){
+    #{$property_name}:$headerHeight;
+    @media screen and (max-width: $tb-width) {
+        #{$property_name}:$headerHeightTb;
+    }
+    @media screen and (max-width: $mb-width) {
+        #{$property_name}:$headerHeightMb;
+    }
+}
+
+@mixin bodyFontSize() {
+    @include fontSize(16);
+    @media screen and (max-width: $tb-width) {
+        @include fontSize(18);
+    }
+    @media screen and (max-width: $mb-width) {
+        @include fontSize(20);
+    }
+}

@@ -1,0 +1,68 @@
+{
+  "projects": [
+    { 
+      "project_name": "Mak's Beer Packaging",   
+      "project_folder": "maksbeer",
+      "project_cat": "packaging design",
+      "project_brief": "Mak's Beer is a local handcrafted beer brand. The very green age of the brand allows high flexibility on exploring different possibilities.",
+      "project_banner": "banner.jpg",
+      "client": "Mak's Beer",
+      "company": "Self Project",
+      "year": "2016",
+      "proj_desc": "",
+      "footer_banner": "footer.jpg",
+      "info-one": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/maksbeer/img-1.jpg'></div><div class='col-holder'><h3>The brand's products come with expanding flavor. Differentiation with unity to make the brand products collectibles wait to be gathered. Maintaining a highly recognizable brand image.</h3></div></div>",
+      "info-two": "<div class='dual-grid'><div class='col-holder'><h3>Each flavor comes with a unique graphic. Special edition is designed for special occasion like festival.</h3></div><div class='col-holder'><img src='../images/projs/maksbeer/img-2.jpg'></div></div>",
+      "info-three": "",
+      "info-four": ""
+    },
+    { 
+      "project_name": "AnyBikes Campaign",   
+      "project_folder": "anybikes",
+      "project_cat": "campaign design",
+      "project_brief": "Get your bikes run before the go rusty on street. A community campaign promotes sharing of bikes among neighbourhoods to make better use of unused resources.",
+      "project_banner": "banner.jpg",
+      "client": "N/A",
+      "company": "Self Project",
+      "year": "2016",
+      "proj_desc": "While most of the bike sharing business are producing their own bikes which will usually end up being a mass amount of metal waste. This campaign promotes local communities and residents to share their low-use-rate bikes to those in need.",
+      "footer_banner": "footer.jpg",
+      "info-one": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/anybikes/img-1.jpg'></div><div class='col-holder'><img src='../images/projs/anybikes/img-2.jpg'></div></div>",
+      "info-two": "<div class='single-grid'><p>The campaign focus on those unused bikes parked randomly on street. A Hong Kong street styled campaign visual is developed to run through the whole campaign.</p></div>",
+      "info-three": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/anybikes/img-3.jpg'></div><div class='col-holder'><h3>We wanted ti include as many people as possible. The promotional materials are set to cope with different age groups.</h3></div></div>",
+      "info-four": "<div class='dual-grid'><div class='col-holder'><h3>A set of tailor made typography is designed to deepen the accent of street style.</h3></div><div class='col-holder'><img src='../images/projs/anybikes/img-4.jpg'></div></div>"
+    },
+    { 
+      "project_name": "Feeding HK Campaign",   
+      "project_folder": "luplup",
+      "project_cat": "campaign design",
+      "project_brief": "Donating motivated not by sympathy, but joy. Feeding Hong Kong, a campaign to call for food donation.",
+      "project_banner": "banner.jpg",
+      "client": "Feeding HK",
+      "company": "Self Project",
+      "year": "2016",
+      "proj_desc": "The joyful tonality of the campaign tries to eliminate any possible negative denotations associated with the action 'donate'. Two sets of storylined posters are to be displayed at public advertising boards to make the campaign more delightful.",
+      "footer_banner": "footer.jpg",
+      "info-one": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/luplup/img-1.jpg'></div><div class='col-holder'><img src='../images/projs/luplup/img-2.jpg'></div></div>",
+      "info-two": "<div class='single-grid'><p>Two sets of posters with illustrated characters playing around passing 'rice' to each other. Storyboarded with different angles to make visuals more interesting with different sorts of semotics applied.</p></div>",
+      "info-three": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/luplup/img-3.jpg'></div><div class='col-holder'><h3>Posters were to be displayed at places like mtr stations, turning the space into a playground with the characters messing around!</h3></div></div>",
+      "info-four": "<div class='dual-grid'><div class='col-holder'><h3>Application at spots like escalator will form a linear viewing order. The story will be told throughout the 'journey'.</h3></div><div class='col-holder'><img src='../images/projs/luplup/img-4.jpg'></div></div>"
+    },
+    { 
+      "project_name": "MPFA Annual Report",   
+      "project_folder": "mpfa",
+      "project_cat": "editorial design",
+      "project_brief": "To Grow, To Harvest — the implication of the brand logo. MPFA is a scheme to prepare the local citizens to better save for their retirement life.",
+      "project_banner": "banner.jpg",
+      "client": "MPFA",
+      "company": "Firmstudio",
+      "year": "2018",
+      "proj_desc": "The proposed visual for this year annual report featured cross-sectioned fruits with each part representing a stage from sowing to harvest. The cross-sectioned visual also implies a more logical side of the scheme — analysis.",
+      "footer_banner": "footer.jpg",
+      "info-one": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/mpfa/img-1.jpg'></div><div class='col-holder'><img src='../images/projs/mpfa/img-2.jpg'></div></div>",
+      "info-two": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/mpfa/img-3.jpg'></div><div class='col-holder'><h3>Use of bold illustration and vibrant color to promote a more young and fresh image of the brand.</h3></div></div>",
+      "info-three": "<div class='dual-grid'><div class='col-holder'><h3>Detailed infographic to illustrate relatively complex statistics with clear information hierarchy adopted.</h3></div><div class='col-holder'><img src='../images/projs/mpfa/img-4.jpg'></div></div>",
+      "info-four": ""
+    }
+  ]
+}

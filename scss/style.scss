@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+// variable (= store common or reusable value)
+@import "variables";
+
+// mixins (= functions)
+@import "mixins";
+
+// Fonts
+@import "fonts/brandon";
+
+//Style that generally or commonly used
+@import 'common';
+
+//Components Overall
+@import 'components/index';
+@import 'components/proj-content';
+
+//Common Layout Style
+
+//Page Specific

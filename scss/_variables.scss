@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* Variables */
+
+// Common Break Pts
+$xl-width: 1920px;
+$tb-width: 991px;
+$mb-width: 768px;
+$min-width: 455px;
+
+// Fonts
+$fontTitle: 'Brandon','Microsoft JhengHei', 微軟正黑體, 微軟雅黑體, Arial, sans-serif;
+$fontTxt: 'Muli','Microsoft JhengHei', 微軟正黑體, 微軟雅黑體, Arial, sans-serif;
+$fontItalic: 'Cormorant','Microsoft JhengHei', 微軟正黑體, 微軟雅黑體, Arial, sans-serif;
+
+// Colors
+$themeYellow: #fdd407;
+$bkgrdWhite: #e8e8e8;
+$colorTxt: #4c4c4c;
+$colorLink: #fa593c;
+
+// Common Values
+$headerHeight: 100px;
+$headerHeightSm: 80px;
+$headerHeightTb: 60px;
+$headerHeightMb: 50px;
+
+// Common Grid Values
+$gridMaxWidth: 1300px;
+$gridPercent: 95%;
+
+// Common Spacing
+$cmSpacing: 20px;
+$cmSpacingTb: $cmSpacing;
+$cmSpacingMb: $cmSpacing;

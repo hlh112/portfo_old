@@ -1,0 +1,36 @@
+{
+  "projects": [
+    { 
+      "project_name": "Home Garden Florist",   
+      "project_folder": "hgf",
+      "project_cat": "logo design",
+      "project_brief": "Home Garden Florist, an online store all about delightful and beautiful floral products. Hoping to bless the clients with high quality hand-made floral products.",
+      "project_banner": "banner.jpg",
+      "client": "Home Garden Florist.",
+      "company": "Creasant Digital",
+      "year": "2017",
+      "proj_desc": "A classy yet elegant key visual to express the beauty of the brand. The logo viusal is inspired by Janpanese 'Kamon', a iconography representing different ethnic groups - Home.",
+      "footer_banner": "footer.jpg",
+      "info-one": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/hgf/img-1.jpg'></div><div class='col-holder'><img src='../images/projs/hgf/img-2.jpg'></div></div>",
+      "info-two": "<div class='single-grid'><p>Tailor-made Chinese typography with hand-written structure and thin stoke tips at the end to express the finess beauty of the brand. The thinner typorgraphy is set to be print with hight readibility even at a very small size regardless of print quality.</p></div>",
+      "info-three": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/hgf/img-3.jpg'></div><div class='col-holder'><h3>Stroke weight variation and curve are deisgned to be fountain-pen like. To make the logo more humane with a taste of hand-made.</h3></div></div>",
+      "info-four": "<div class='dual-grid'><div class='col-holder'><h3>Stationary including business card and product tag are included in the design package. Simplicity is the solely aim to make the brand image more sophisticated.</h3></div><div class='col-holder'><img src='../images/projs/hgf/img-4.jpg'></div></div>"
+    },
+    { 
+      "project_name": "EDUHK SES",   
+      "project_folder": "ses",
+      "project_cat": "logo design",
+      "project_brief": "With the reform of the educational institute, its department of SES is desperately requesting for a new logo that can come up to meet the modern standard.",
+      "project_banner": "banner.jpg",
+      "client": "EDUHK",
+      "company": "Creasant Digital",
+      "year": "2017",
+      "proj_desc": "A newly designed logo that aims at conveying the role of the discipline. Make use of witty design strategies while keeping the etiquette of an educational institution.",
+      "footer_banner": "footer.jpg",
+      "info-one": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/ses/img-1.jpg'></div><div class='col-holder'><img src='../images/projs/ses/img-2.jpg'></div></div>",
+      "info-two": "<div class='dual-grid'><div class='col-holder'><img src='../images/projs/ses/img-3.jpg'></div><div class='col-holder'><h3>A Timeless logo that strike a balance between message conveying, visual forms and functionality.</h3></div></div>",
+      "info-three": "<div class='dual-grid'><div class='col-holder'><h3>Multiple meanings adopted in the logo, yet its never too busy or vague while tell the stories.</h3></div><div class='col-holder'><img src='../images/projs/ses/img-4.jpg'></div></div>",
+      "info-four": ""
+    }
+  ]
+}
